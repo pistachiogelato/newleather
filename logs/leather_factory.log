@@ -1,0 +1,317 @@
+2025-04-16 21:14:44 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:14:44 | INFO     | utils.db_init:init_db:12 - 开始初始化数据库...
+2025-04-16 21:14:46 | INFO     | utils.db_init:init_db:70 - 数据库初始化完成: D:\llm\projects\leather\data\leather_factory.db
+2025-04-16 21:14:59 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:19:30 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:19:30 | INFO     | data.generate_data:generate_sample_data:10 - 开始生成样本数据...
+2025-04-16 21:19:30 | INFO     | data.generate_data:generate_sample_data:65 - 数据已保存到: data/leather_market_data.csv
+2025-04-16 21:19:50 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:19:50 | INFO     | models.trainer:train_models:19 - 开始训练模型...
+2025-04-16 21:19:50 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: D:\llm\projects\leather\data\leather_market_data.csv
+2025-04-16 21:19:50 | INFO     | models.trainer:train_models:32 - 训练SARIMA模型...
+2025-04-16 21:19:50 | INFO     | models.sarima_model:fit:31 - 开始训练SARIMA模型...
+2025-04-16 21:19:54 | INFO     | models.sarima_model:fit:42 - SARIMA模型训练完成
+2025-04-16 21:19:54 | INFO     | models.trainer:train_models:55 - 训练LSTM模型...
+2025-04-16 21:19:57 | INFO     | models.lstm_model:train:125 - Epoch [1/50], Loss: -0.7712
+2025-04-16 21:19:58 | INFO     | models.lstm_model:train:125 - Epoch [2/50], Loss: -1.8490
+2025-04-16 21:19:58 | INFO     | models.lstm_model:train:125 - Epoch [3/50], Loss: -2.0736
+2025-04-16 21:19:58 | INFO     | models.lstm_model:train:125 - Epoch [4/50], Loss: -2.1027
+2025-04-16 21:19:59 | INFO     | models.lstm_model:train:125 - Epoch [5/50], Loss: -2.2014
+2025-04-16 21:19:59 | INFO     | models.lstm_model:train:125 - Epoch [6/50], Loss: -2.1360
+2025-04-16 21:20:00 | INFO     | models.lstm_model:train:125 - Epoch [7/50], Loss: -2.2347
+2025-04-16 21:20:00 | INFO     | models.lstm_model:train:125 - Epoch [8/50], Loss: -2.2238
+2025-04-16 21:20:01 | INFO     | models.lstm_model:train:125 - Epoch [9/50], Loss: -2.2597
+2025-04-16 21:20:01 | INFO     | models.lstm_model:train:125 - Epoch [10/50], Loss: -2.2391
+2025-04-16 21:20:01 | INFO     | models.lstm_model:train:125 - Epoch [11/50], Loss: -2.2666
+2025-04-16 21:20:02 | INFO     | models.lstm_model:train:125 - Epoch [12/50], Loss: -2.1731
+2025-04-16 21:20:02 | INFO     | models.lstm_model:train:125 - Epoch [13/50], Loss: -2.2592
+2025-04-16 21:20:03 | INFO     | models.lstm_model:train:125 - Epoch [14/50], Loss: -2.2862
+2025-04-16 21:20:03 | INFO     | models.lstm_model:train:125 - Epoch [15/50], Loss: -2.2775
+2025-04-16 21:20:03 | INFO     | models.lstm_model:train:125 - Epoch [16/50], Loss: -2.2770
+2025-04-16 21:20:04 | INFO     | models.lstm_model:train:125 - Epoch [17/50], Loss: -2.3034
+2025-04-16 21:20:04 | INFO     | models.lstm_model:train:125 - Epoch [18/50], Loss: -2.2977
+2025-04-16 21:20:05 | INFO     | models.lstm_model:train:125 - Epoch [19/50], Loss: -2.3160
+2025-04-16 21:20:05 | INFO     | models.lstm_model:train:125 - Epoch [20/50], Loss: -2.2976
+2025-04-16 21:20:05 | INFO     | models.lstm_model:train:125 - Epoch [21/50], Loss: -2.2891
+2025-04-16 21:20:06 | INFO     | models.lstm_model:train:125 - Epoch [22/50], Loss: -2.3141
+2025-04-16 21:20:06 | INFO     | models.lstm_model:train:125 - Epoch [23/50], Loss: -2.2797
+2025-04-16 21:20:07 | INFO     | models.lstm_model:train:125 - Epoch [24/50], Loss: -2.1997
+2025-04-16 21:20:07 | INFO     | models.lstm_model:train:125 - Epoch [25/50], Loss: -2.3179
+2025-04-16 21:20:08 | INFO     | models.lstm_model:train:125 - Epoch [26/50], Loss: -2.3131
+2025-04-16 21:20:08 | INFO     | models.lstm_model:train:125 - Epoch [27/50], Loss: -2.3164
+2025-04-16 21:20:08 | INFO     | models.lstm_model:train:125 - Epoch [28/50], Loss: -2.2557
+2025-04-16 21:20:09 | INFO     | models.lstm_model:train:125 - Epoch [29/50], Loss: -2.3122
+2025-04-16 21:20:09 | INFO     | models.lstm_model:train:125 - Epoch [30/50], Loss: -2.3466
+2025-04-16 21:20:10 | INFO     | models.lstm_model:train:125 - Epoch [31/50], Loss: -2.2970
+2025-04-16 21:20:10 | INFO     | models.lstm_model:train:125 - Epoch [32/50], Loss: -2.3508
+2025-04-16 21:20:11 | INFO     | models.lstm_model:train:125 - Epoch [33/50], Loss: -2.3326
+2025-04-16 21:20:11 | INFO     | models.lstm_model:train:125 - Epoch [34/50], Loss: -2.3428
+2025-04-16 21:20:11 | INFO     | models.lstm_model:train:125 - Epoch [35/50], Loss: -2.3370
+2025-04-16 21:20:12 | INFO     | models.lstm_model:train:125 - Epoch [36/50], Loss: -2.3453
+2025-04-16 21:20:12 | INFO     | models.lstm_model:train:125 - Epoch [37/50], Loss: -2.3478
+2025-04-16 21:20:13 | INFO     | models.lstm_model:train:125 - Epoch [38/50], Loss: -2.3556
+2025-04-16 21:20:13 | INFO     | models.lstm_model:train:125 - Epoch [39/50], Loss: -2.3033
+2025-04-16 21:20:13 | INFO     | models.lstm_model:train:125 - Epoch [40/50], Loss: -2.3339
+2025-04-16 21:20:14 | INFO     | models.lstm_model:train:125 - Epoch [41/50], Loss: -2.3237
+2025-04-16 21:20:14 | INFO     | models.lstm_model:train:125 - Epoch [42/50], Loss: -2.3274
+2025-04-16 21:20:15 | INFO     | models.lstm_model:train:125 - Epoch [43/50], Loss: -2.2897
+2025-04-16 21:20:15 | INFO     | models.lstm_model:train:125 - Epoch [44/50], Loss: -2.2985
+2025-04-16 21:20:16 | INFO     | models.lstm_model:train:125 - Epoch [45/50], Loss: -2.3258
+2025-04-16 21:20:16 | INFO     | models.lstm_model:train:125 - Epoch [46/50], Loss: -2.3315
+2025-04-16 21:20:16 | INFO     | models.lstm_model:train:125 - Epoch [47/50], Loss: -2.2855
+2025-04-16 21:20:17 | INFO     | models.lstm_model:train:125 - Epoch [48/50], Loss: -2.3204
+2025-04-16 21:20:17 | INFO     | models.lstm_model:train:125 - Epoch [49/50], Loss: -2.3406
+2025-04-16 21:20:18 | INFO     | models.lstm_model:train:125 - Epoch [50/50], Loss: -2.3466
+2025-04-16 21:20:19 | INFO     | models.sarima_model:save_model:73 - SARIMA模型已保存到: D:\llm\projects\leather\models\saved\sarima_model.joblib
+2025-04-16 21:20:19 | INFO     | models.lstm_model:save_model:165 - LSTM模型已保存到: D:\llm\projects\leather\models\saved\lstm_model.pt
+2025-04-16 21:20:19 | INFO     | models.trainer:train_models:68 - 模型训练完成
+2025-04-16 21:20:50 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:20:50 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:20:50 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:20:50 | ERROR    | models.predictor:load_models:205 - 加载模型失败: 模型文件不存在: D:\llm\projects\leather\models
+2025-04-16 21:20:50 | WARNING  | routes.api:init_models:32 - 未找到预训练模型，需要先训练模型
+2025-04-16 21:20:50 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:20:57 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:20:57 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:20:57 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:20:57 | ERROR    | models.predictor:load_models:205 - 加载模型失败: 模型文件不存在: D:\llm\projects\leather\models
+2025-04-16 21:20:57 | WARNING  | routes.api:init_models:32 - 未找到预训练模型，需要先训练模型
+2025-04-16 21:20:57 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:23:42 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:23:42 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:23:42 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:23:42 | ERROR    | models.predictor:load_models:205 - 加载模型失败: 模型文件不存在: D:\llm\projects\leather\models
+2025-04-16 21:23:42 | WARNING  | routes.api:init_models:32 - 未找到预训练模型，需要先训练模型
+2025-04-16 21:23:42 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:23:48 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:23:48 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:23:48 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:23:48 | ERROR    | models.predictor:load_models:205 - 加载模型失败: 模型文件不存在: D:\llm\projects\leather\models
+2025-04-16 21:23:48 | WARNING  | routes.api:init_models:32 - 未找到预训练模型，需要先训练模型
+2025-04-16 21:23:48 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:28:27 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:28:27 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:28:27 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:28:29 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:28:29 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:28:29 | INFO     | models.predictor:load_models:205 - 所有模型加载成功
+2025-04-16 21:28:29 | INFO     | routes.api:init_models:30 - 模型加载成功
+2025-04-16 21:28:29 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:29:16 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:29:16 | ERROR    | visualization.dashboard:__init__:104 - 初始化仪表盘失败: type object 'DevelopmentConfig' has no attribute 'MODEL_BASE_PATH'
+2025-04-16 21:31:33 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:31:33 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:31:33 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:31:33 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:31:33 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:31:33 | INFO     | models.predictor:load_models:205 - 所有模型加载成功
+2025-04-16 21:31:33 | INFO     | routes.api:init_models:30 - 模型加载成功
+2025-04-16 21:31:33 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:31:58 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:31:58 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:31:58 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:31:58 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:31:58 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:31:58 | INFO     | models.predictor:load_models:205 - 所有模型加载成功
+2025-04-16 21:31:58 | INFO     | routes.api:init_models:30 - 模型加载成功
+2025-04-16 21:31:58 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:32:28 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:32:28 | ERROR    | models.predictor:load_models:207 - 加载模型失败: 模型文件不存在: D:\llm\projects\leather\models\saved\saved
+2025-04-16 21:32:28 | WARNING  | visualization.dashboard:__init__:40 - 未找到预训练模型，部分功能可能不可用
+2025-04-16 21:32:28 | INFO     | visualization.dashboard:run:413 - 正在启动仪表盘服务器，端口: 8050
+2025-04-16 21:32:35 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:32:35 | ERROR    | models.predictor:load_models:207 - 加载模型失败: 模型文件不存在: D:\llm\projects\leather\models\saved\saved
+2025-04-16 21:32:35 | WARNING  | visualization.dashboard:__init__:40 - 未找到预训练模型，部分功能可能不可用
+2025-04-16 21:32:35 | INFO     | visualization.dashboard:run:413 - 正在启动仪表盘服务器，端口: 8050
+2025-04-16 21:33:53 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:33:53 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:33:53 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:33:53 | ERROR    | models.predictor:load_models:207 - 加载模型失败: 模型文件不存在: D:\llm\projects\leather\models
+2025-04-16 21:33:53 | WARNING  | routes.api:init_models:32 - 未找到预训练模型，需要先训练模型
+2025-04-16 21:33:53 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:33:53 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:33:56 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:33:56 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:33:56 | INFO     | models.predictor:load_models:205 - 所有模型加载成功
+2025-04-16 21:33:56 | INFO     | visualization.dashboard:run:413 - 正在启动仪表盘服务器，端口: 8050
+2025-04-16 21:35:55 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:35:55 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:35:55 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:35:55 | ERROR    | models.predictor:load_models:207 - 加载模型失败: 模型文件不存在: D:\llm\projects\leather\models
+2025-04-16 21:35:55 | WARNING  | routes.api:init_models:32 - 未找到预训练模型，需要先训练模型
+2025-04-16 21:35:55 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:36:02 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:36:02 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:36:02 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:36:02 | ERROR    | models.predictor:load_models:207 - 加载模型失败: 模型文件不存在: D:\llm\projects\leather\models
+2025-04-16 21:36:02 | WARNING  | routes.api:init_models:32 - 未找到预训练模型，需要先训练模型
+2025-04-16 21:36:02 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:40:14 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:40:14 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:40:14 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:40:14 | ERROR    | models.predictor:load_models:207 - 加载模型失败: 模型文件不存在: D:\llm\projects\leather\models
+2025-04-16 21:40:14 | WARNING  | routes.api:init_models:32 - 未找到预训练模型，需要先训练模型
+2025-04-16 21:40:14 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:41:16 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:41:16 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:41:16 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:41:19 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:41:19 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:41:19 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 21:41:19 | INFO     | routes.api:init_models:31 - 模型加载成功
+2025-04-16 21:41:19 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:41:47 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:41:47 | INFO     | utils.db_init:init_db:12 - 开始初始化数据库...
+2025-04-16 21:41:47 | INFO     | utils.db_init:init_db:70 - 数据库初始化完成: D:\llm\projects\leather\data\leather_factory.db
+2025-04-16 21:42:31 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:42:31 | INFO     | data.generate_data:generate_sample_data:10 - 开始生成样本数据...
+2025-04-16 21:42:31 | INFO     | data.generate_data:generate_sample_data:65 - 数据已保存到: data/leather_market_data.csv
+2025-04-16 21:42:46 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:42:46 | INFO     | models.trainer:train_models:19 - 开始训练模型...
+2025-04-16 21:42:46 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: D:\llm\projects\leather\data\leather_market_data.csv
+2025-04-16 21:42:46 | INFO     | models.trainer:train_models:32 - 训练SARIMA模型...
+2025-04-16 21:42:46 | INFO     | models.sarima_model:fit:31 - 开始训练SARIMA模型...
+2025-04-16 21:42:50 | INFO     | models.sarima_model:fit:42 - SARIMA模型训练完成
+2025-04-16 21:42:50 | INFO     | models.trainer:train_models:55 - 训练LSTM模型...
+2025-04-16 21:42:53 | INFO     | models.lstm_model:train:125 - Epoch [1/50], Loss: -0.5802
+2025-04-16 21:42:53 | INFO     | models.lstm_model:train:125 - Epoch [2/50], Loss: -1.9259
+2025-04-16 21:42:54 | INFO     | models.lstm_model:train:125 - Epoch [3/50], Loss: -2.0326
+2025-04-16 21:42:54 | INFO     | models.lstm_model:train:125 - Epoch [4/50], Loss: -2.1310
+2025-04-16 21:42:55 | INFO     | models.lstm_model:train:125 - Epoch [5/50], Loss: -2.2206
+2025-04-16 21:42:55 | INFO     | models.lstm_model:train:125 - Epoch [6/50], Loss: -2.2026
+2025-04-16 21:42:56 | INFO     | models.lstm_model:train:125 - Epoch [7/50], Loss: -2.2050
+2025-04-16 21:42:56 | INFO     | models.lstm_model:train:125 - Epoch [8/50], Loss: -2.1923
+2025-04-16 21:42:57 | INFO     | models.lstm_model:train:125 - Epoch [9/50], Loss: -2.2932
+2025-04-16 21:42:57 | INFO     | models.lstm_model:train:125 - Epoch [10/50], Loss: -2.2647
+2025-04-16 21:42:57 | INFO     | models.lstm_model:train:125 - Epoch [11/50], Loss: -2.2463
+2025-04-16 21:42:58 | INFO     | models.lstm_model:train:125 - Epoch [12/50], Loss: -2.2914
+2025-04-16 21:42:58 | INFO     | models.lstm_model:train:125 - Epoch [13/50], Loss: -2.3054
+2025-04-16 21:42:59 | INFO     | models.lstm_model:train:125 - Epoch [14/50], Loss: -2.2958
+2025-04-16 21:42:59 | INFO     | models.lstm_model:train:125 - Epoch [15/50], Loss: -2.3247
+2025-04-16 21:43:00 | INFO     | models.lstm_model:train:125 - Epoch [16/50], Loss: -2.2828
+2025-04-16 21:43:00 | INFO     | models.lstm_model:train:125 - Epoch [17/50], Loss: -2.2995
+2025-04-16 21:43:01 | INFO     | models.lstm_model:train:125 - Epoch [18/50], Loss: -2.3528
+2025-04-16 21:43:01 | INFO     | models.lstm_model:train:125 - Epoch [19/50], Loss: -2.3382
+2025-04-16 21:43:01 | INFO     | models.lstm_model:train:125 - Epoch [20/50], Loss: -2.3556
+2025-04-16 21:43:02 | INFO     | models.lstm_model:train:125 - Epoch [21/50], Loss: -2.2867
+2025-04-16 21:43:02 | INFO     | models.lstm_model:train:125 - Epoch [22/50], Loss: -2.2396
+2025-04-16 21:43:03 | INFO     | models.lstm_model:train:125 - Epoch [23/50], Loss: -2.3386
+2025-04-16 21:43:03 | INFO     | models.lstm_model:train:125 - Epoch [24/50], Loss: -2.3474
+2025-04-16 21:43:04 | INFO     | models.lstm_model:train:125 - Epoch [25/50], Loss: -2.3373
+2025-04-16 21:43:04 | INFO     | models.lstm_model:train:125 - Epoch [26/50], Loss: -2.3559
+2025-04-16 21:43:05 | INFO     | models.lstm_model:train:125 - Epoch [27/50], Loss: -2.3428
+2025-04-16 21:43:05 | INFO     | models.lstm_model:train:125 - Epoch [28/50], Loss: -2.3145
+2025-04-16 21:43:05 | INFO     | models.lstm_model:train:125 - Epoch [29/50], Loss: -2.3536
+2025-04-16 21:43:06 | INFO     | models.lstm_model:train:125 - Epoch [30/50], Loss: -2.3734
+2025-04-16 21:43:06 | INFO     | models.lstm_model:train:125 - Epoch [31/50], Loss: -2.3440
+2025-04-16 21:43:07 | INFO     | models.lstm_model:train:125 - Epoch [32/50], Loss: -2.3820
+2025-04-16 21:43:07 | INFO     | models.lstm_model:train:125 - Epoch [33/50], Loss: -2.3034
+2025-04-16 21:43:08 | INFO     | models.lstm_model:train:125 - Epoch [34/50], Loss: -2.3512
+2025-04-16 21:43:08 | INFO     | models.lstm_model:train:125 - Epoch [35/50], Loss: -2.3717
+2025-04-16 21:43:09 | INFO     | models.lstm_model:train:125 - Epoch [36/50], Loss: -2.3813
+2025-04-16 21:43:09 | INFO     | models.lstm_model:train:125 - Epoch [37/50], Loss: -2.3763
+2025-04-16 21:43:09 | INFO     | models.lstm_model:train:125 - Epoch [38/50], Loss: -2.3518
+2025-04-16 21:43:10 | INFO     | models.lstm_model:train:125 - Epoch [39/50], Loss: -2.3720
+2025-04-16 21:43:10 | INFO     | models.lstm_model:train:125 - Epoch [40/50], Loss: -2.3462
+2025-04-16 21:43:11 | INFO     | models.lstm_model:train:125 - Epoch [41/50], Loss: -2.3937
+2025-04-16 21:43:11 | INFO     | models.lstm_model:train:125 - Epoch [42/50], Loss: -2.3281
+2025-04-16 21:43:12 | INFO     | models.lstm_model:train:125 - Epoch [43/50], Loss: -2.3838
+2025-04-16 21:43:12 | INFO     | models.lstm_model:train:125 - Epoch [44/50], Loss: -2.3792
+2025-04-16 21:43:13 | INFO     | models.lstm_model:train:125 - Epoch [45/50], Loss: -2.3966
+2025-04-16 21:43:13 | INFO     | models.lstm_model:train:125 - Epoch [46/50], Loss: -2.3565
+2025-04-16 21:43:14 | INFO     | models.lstm_model:train:125 - Epoch [47/50], Loss: -2.3498
+2025-04-16 21:43:14 | INFO     | models.lstm_model:train:125 - Epoch [48/50], Loss: -2.2967
+2025-04-16 21:43:15 | INFO     | models.lstm_model:train:125 - Epoch [49/50], Loss: -2.3151
+2025-04-16 21:43:15 | INFO     | models.lstm_model:train:125 - Epoch [50/50], Loss: -2.4038
+2025-04-16 21:43:16 | INFO     | models.sarima_model:save_model:73 - SARIMA模型已保存到: D:\llm\projects\leather\models\saved\sarima_model.joblib
+2025-04-16 21:43:16 | INFO     | models.lstm_model:save_model:165 - LSTM模型已保存到: D:\llm\projects\leather\models\saved\lstm_model.pt
+2025-04-16 21:43:16 | INFO     | models.trainer:train_models:68 - 模型训练完成
+2025-04-16 21:44:08 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:44:08 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:44:08 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:44:08 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:44:08 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:44:08 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 21:44:08 | INFO     | routes.api:init_models:31 - 模型加载成功
+2025-04-16 21:44:08 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:44:15 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:44:15 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:44:15 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:44:16 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:44:16 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:44:16 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 21:44:16 | INFO     | routes.api:init_models:31 - 模型加载成功
+2025-04-16 21:44:16 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:44:26 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 21:44:28 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 21:44:30 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 21:44:55 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:44:57 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:44:57 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:44:57 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 21:44:58 | INFO     | visualization.dashboard:run:413 - 正在启动仪表盘服务器，端口: 8050
+2025-04-16 21:45:07 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:45:10 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:45:10 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:45:10 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 21:45:10 | INFO     | visualization.dashboard:run:413 - 正在启动仪表盘服务器，端口: 8050
+2025-04-16 21:46:05 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 21:51:06 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 21:56:06 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 21:56:21 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:56:21 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:56:21 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:56:21 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:56:25 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:56:25 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:56:25 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 21:56:25 | INFO     | routes.api:init_models:31 - 模型加载成功
+2025-04-16 21:56:25 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:56:25 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 21:56:25 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:56:25 | INFO     | visualization.dashboard:run:411 - 正在启动仪表盘服务器，端口: 8050
+2025-04-16 21:57:01 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 21:57:18 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:57:18 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:57:18 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 21:57:19 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:57:19 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:57:19 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 21:57:19 | INFO     | routes.api:init_models:31 - 模型加载成功
+2025-04-16 21:57:19 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 21:57:22 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 21:57:22 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 21:57:22 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 21:57:22 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 21:57:22 | INFO     | visualization.dashboard:run:411 - 正在启动仪表盘服务器，端口: 8050
+2025-04-16 21:58:01 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 22:03:02 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 22:08:02 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 22:08:29 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 22:08:31 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 22:08:31 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 22:08:31 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 22:08:32 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 22:08:32 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 22:08:32 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 22:08:32 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 22:08:32 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 22:08:32 | INFO     | routes.api:init_models:31 - 模型加载成功
+2025-04-16 22:08:32 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 22:08:32 | INFO     | visualization.dashboard:run:411 - 正在启动仪表盘服务器，端口: 8050
+2025-04-16 22:09:01 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 22:09:22 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 22:09:23 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 22:09:23 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 22:09:23 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 22:09:23 | INFO     | visualization.dashboard:run:411 - 正在启动仪表盘服务器，端口: 8050
+2025-04-16 22:09:23 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 22:09:23 | INFO     | utils.logger:setup_logger:35 - 日志系统初始化成功
+2025-04-16 22:09:23 | INFO     | app:create_app:29 - 应用初始化开始
+2025-04-16 22:09:24 | INFO     | models.sarima_model:load_model:84 - SARIMA模型已从 D:\llm\projects\leather\models\saved\sarima_model.joblib 加载
+2025-04-16 22:09:24 | INFO     | models.lstm_model:load_model:180 - LSTM模型已从 D:\llm\projects\leather\models\saved\lstm_model.pt 加载
+2025-04-16 22:09:24 | INFO     | models.predictor:load_models:204 - 所有模型加载成功
+2025-04-16 22:09:24 | INFO     | routes.api:init_models:31 - 模型加载成功
+2025-04-16 22:09:24 | INFO     | app:create_app:139 - 应用初始化完成
+2025-04-16 22:09:30 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
+2025-04-16 22:14:31 | INFO     | utils.data_processor:load_data:33 - 正在加载数据: data/leather_market_data.csv
